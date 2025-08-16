@@ -135,9 +135,7 @@
             <div class="form-group">
               <p> <b>声明</b>：本工具仅自用，并无后门，且工作原理很简单，就是js来替你循环下载一些资源文件而已，不放心用可以不用哈，不用非得踩一脚说我会往你手机下载木马病毒！</p>
 		    
-                
-			<p><a href="https://api.vv1234.cn/JumpURL/share/llxhq_ad_tiaozuan.php" class="nk-menu-link nk-ibx-action-item"><img src="https://wx1.vv1234.cn/2022/08/21/1086301d4ea0e6f9.gif" alt="AD-IMG" title="AD-IMG" width="300" height="30"  /></a></p>
-			
+        
 			<p>Tip:速度不满意？请尝试手工切换节点，加大线程<br/>带的箭头↓👇的为主分类，请点击箭头下方的内容</p>
                 <label class="form-label"></label>
           <h6><em class="icon ni ni-info"></em> 下载链接</h6>        
@@ -212,8 +210,7 @@
 			<option value="https://nj-us-ping.vultr.com/vultr.com.1000MB.bin">Vultr 1G(纽约)</option>
 			<option value="https://speedtest.tokyo2.linode.com/100MB-tokyo2.bin">Linode 100MB(日本省东京市)</option>
 			<option value="https://emp.bbci.co.uk/emp/dashjs/3.2.0-8/dash.all.min.js">BBC中文网</option>
-					<optgroup label="👇👇 接口并发测试 👇👇">
-			<option value="https://api.vv1234.cn/bing/api.php?idx=-1" >必应壁纸API</option>
+				 
 			</select>
 		 <input style="" type="text" v-model="set.input" placeholder="直接在输入框内输入文件资源的下载链接即可，适用于未开启防盗链的直链资源，不支持网盘资源解析" class="form-control" autocomplete="off">
            
@@ -272,12 +269,7 @@
 				 <p>注：虽支持可自定义下载地址 但无法请求跨域链接</p>
 				 <p>	
 				 <hr>
-				 
-				 
-				 <p> 感谢您对流量消耗事业做出的贡献!</p>
-				 <p>  如您为移动19元芝麻卡套餐用户，欢迎加企鹅群 <a href="//api.vv1234.cn/JumpURL/share/jiaqun178317823.php" target="_blank"> 178317823 </a> 讨论交流</p>
-				 
-					 
+			  
 				 
             <p>您的访问信息如下：</p>
 			<li class="nk-menu-item ">
@@ -289,10 +281,9 @@
 		  <a href="old-index.php" target="_blank" class="nk-menu-link nk-ibx-action-item">→ 点我切换回旧版 ←</a>
 			 <hr>	
 			   
-	 <p>最近更新:  <a href="version-update.php" target="_blank" rel="noopener" data-pjax-state="">20240805</a>  </p>
-	   <p> 日常更新：因<a href="https://vv1234.cn/archives/881.html" target="_blank" data-pjax-state="">供应链投毒事件</a>，暂移除51啦统计代码并替换Staticfile相关内容等更新/移除部分失效资源链接，优化国内部分地区访问速度</p>
-	  <p>功能优化:对于网络波动及第三方资源访问故障等网络错误问题造成的执行中断,改为仍然强制执行!</p>
-	 	 <p>为降低终端设备CPU占用,暂时关闭网页特效,默认线程调整为10</p>	 
+	 <p>最近更新:  <a href="version-update.php" target="_blank" rel="noopener" data-pjax-state="">20250815</a>  </p>
+	   <p> 字节CDN换源</p>	 
+  
 		 <hr>	
 	
          <br/>
@@ -329,9 +320,9 @@
 <!-- footer @e -->
     </div>
     <!-- wrap @e -->
-<script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
-<script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
-<script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/layer/3.5.1/layer.js"></script>
+<script src="//s2.pstatp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+<script src="//s2.pstatp.com/cdn/expire-1-M/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+<script src="//s2.pstatp.com/cdn/expire-1-M/layer/3.5.1/layer.js"></script>
 <script src="js/nioapp.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/common.js"></script>
@@ -351,8 +342,8 @@ $(document).ready(function(){
 })
 </script>
 
-<script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js"></script>
-<script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/axios/0.26.0/axios.min.js"></script>
+<script src="//s2.pstatp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js"></script>
+<script src="//s2.pstatp.com/cdn/expire-1-M/axios/0.26.0/axios.min.js"></script>
 <script>
 var errors = null
 new Vue({
